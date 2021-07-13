@@ -1,0 +1,96 @@
+:root { 
+  --concord: #7b7b7e;
+  --dove-gray: #707070;
+  --gravel: #46454a;
+  --niagara: #08a88e;
+  --sonic-silver: #747474;
+  --white: #ffffff;
+
+ 
+  --font-size-l: 60px;
+  --font-size-m: 36px;
+  --font-size-s: 30px;
+  --font-size-xs: 24px;
+  --font-size-xxs: 22px;
+  --font-size-xxxs: 21px;
+  --font-size-xxxxs: 20px;
+
+ 
+  --font-family-cocogoosepro-italic: "CocogoosePro-Italic", Helvetica;
+  --font-family-helvetica_neue: "Helvetica Neue", Helvetica;
+  --font-family-helveticaneue-bold: "HelveticaNeue-Bold", Helvetica;
+  --font-family-helveticaneue-condensedbold: "HelveticaNeue-CondensedBold", Helvetica;
+  --font-family-helveticaneue-italic: "HelveticaNeue-Italic", Helvetica;
+  --font-family-helveticaneue-light: "HelveticaNeue-Light", Helvetica;
+  --font-family-helveticaneue-lightitalic: "HelveticaNeue-LightItalic", Helvetica;
+  --font-family-helveticaneue-medium: "HelveticaNeue-Medium", Helvetica;
+  --font-family-helveticaneue-regular: "HelveticaNeue-Regular", Helvetica;
+  --font-family-helveticaneue_lt_pro-75bold: "HelveticaNeue LT Pro-75Bold", Helvetica;
+  --font-family-segoe_ui: "Segoe UI", Helvetica;
+  --font-family-segoeui-bold: "SegoeUI-Bold", Helvetica;
+  --font-family-segoeui-regular: "SegoeUI-Regular", Helvetica;
+
+}
+.helveticaneue-regular-normal-sonic-silver-21px {
+  color: var(--sonic-silver);
+  font-family: var(--font-family-helveticaneue-regular);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.helveticaneue-regular-normal-white-21px {
+  color: var(--white);
+  font-family: var(--font-family-helveticaneue-regular);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.segoeui-bold-white-36px {
+  color: var(--white);
+  font-family: var(--font-family-segoeui-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.segoeui-normal-dove-gray-33px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-segoe_ui);
+  font-size: 33px;
+}
+
+.segoeui-regular-normal-white-33px {
+  color: var(--white);
+  font-family: var(--font-family-segoeui-regular);
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.segoeui-regular-normal-dove-gray-33px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-segoeui-regular);
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.helveticaneue-italic-normal-white-30px {
+  color: var(--white);
+  font-family: var(--font-family-helveticaneue-italic);
+  font-size: var(--font-size-s);
+  font-style: italic;
+  font-weight: 400;
+}
+
+.segoeui-normal-white-36px {
+  color: var(--white);
+  font-family: var(--font-family-segoe_ui);
+  font-size: var(--font-size-m);
+}
+
+.border-1px-dove-gray {
+  border: 1px solid var(--dove-gray);
+}
